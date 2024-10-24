@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    background-color: #bbedf6;
+    padding: 20px;
+}
+/*
+nav ul {
+    display: flex;
+    background-color: #000000;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+} */
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+.content img {
+    margin: 10px;
+    max-width: 300px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox for Services */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Grid for Gallery */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+/*
+.different {
+  
+    width: 400px;
+    border-radius: 50%;
+
+}
+
+.different:hover {
+    border: 6px solid rgb(10, 10, 10);
+    box-shadow: 3px 5px 4px grey;
+}*/
+.different {
+    width: 400px;
+    height: 300px; 
+    border-radius: 10px; /* Optional: A small radius for rounded corners */
+    
+}
+
+.different:hover {
+    border-radius: 0;
+    border: 6px solid rgb(10, 10, 10);
+    box-shadow: 3px 5px 4px grey;
+}
